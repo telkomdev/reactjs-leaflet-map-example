@@ -85,8 +85,7 @@ export default class Location extends Component {
     render() {
         let position = [this.state.lat, this.state.long];
         let target = [this.state.targetLat, this.state.targetLong];
-
-        //const accessToken = 'pk.eyJ1IjoibXl0ZHMiLCJhIjoiY2tpbjltaXR0MGtmZDJ2cXF1aHIzc3JwNSJ9.qYCFe65MBWT13UuXwgRz_Q';
+        
         const attribution = '&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
         const tileUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
 
